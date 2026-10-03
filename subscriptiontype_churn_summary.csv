@@ -1,0 +1,4 @@
+SubscriptionType,Customers,Churned,Churn_Rate
+Basic,7,5,0.7142857142857143
+Enterprise,4,0,0.0
+Pro,4,2,0.5

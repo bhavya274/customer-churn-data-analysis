@@ -1,0 +1,12 @@
+Field,Meaning,Quality / analysis note
+CustomerID,Synthetic unique identifier,Identifier; do not aggregate as a measure
+Gender,Customer gender in supplied synthetic data,Categorical
+Age,Customer age,Numeric; checked for plausible range
+TenureMonths,Completed months since signup,Numeric; non-negative
+SubscriptionType,"Basic, Pro, or Enterprise",Categorical
+MonthlyCharges,Fictional monthly charge in INR,Numeric; non-negative
+TotalCharges,Total charge in the supplied observation,Numeric; validated against MonthlyCharges × TenureMonths
+ContractType,"Month-to-Month, One Year, or Two Year",Categorical
+SupportTickets,Support tickets in the previous 90 days,Count; non-negative
+PaymentMethod,Payment method,Categorical
+Churn,Whether the customer left during the observation period,Binary categorical: Yes/No
